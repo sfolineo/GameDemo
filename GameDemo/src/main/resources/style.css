@@ -1,0 +1,63 @@
+/* style.css */
+#mainPane {
+    -fx-background-color: #4CAF50; /* Green */
+}
+#gamePane {
+    -fx-background-color: #008080; /* Teal */
+}
+#actionPane {
+    -fx-background-color: #808080; /* Gray */
+    -fx-alignment: CENTER;
+    -fx-max-height: 500px;
+    -fx-min-height: 500px;
+    -fx-max-width: 500px;
+    -fx-min-width: 500px;
+}
+#headerHBox {
+    -fx-background-color: #800080; /* Purple */
+    -fx-alignment: CENTER;
+}
+#footerVBox {
+    -fx-background-color: #808080; /* Gray */
+    -fx-alignment: CENTER;
+}
+#sideVbox {
+    
+}
+/*
+-fx-font-family: Specifies the font type (e.g., "Arial", "Verdana").
+-fx-font-size: Controls the size of the text (e.g., "12px", "1.2em").
+-fx-font-weight: Defines the thickness of the text (e.g., "bold", "normal").
+-fx-font-style: Specifies the style of the font (e.g., "italic", "normal").
+-fx-text-fill: Sets the color of the text (e.g., "red", "#333333").
+-fx-text-alignment: Aligns the text within its container (e.g., "center", "left", "right").
+-fx-text-decoration: Applies decorations to the text (e.g., "underline", "line-through").
+-fx-text-transform
+*/
+#titleLabel {
+    -fx-font-family: "Montserrat Black";
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-size: 40px;
+}
+#messageLabel {
+    -fx-font-family: "Liberation Sans";
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-pref-height: 50px;
+}#messageTextField {
+    -fx-font-family: "Liberation Sans";
+    -fx-text-alignment: right;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+}
+.button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+#myButton {
+    -fx-background-color: #008CBA; /* Blue */
+}
