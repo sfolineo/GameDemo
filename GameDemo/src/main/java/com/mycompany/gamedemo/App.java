@@ -79,7 +79,10 @@ public class App extends Application {
         
         var test3 = new Sprite("smileyPixel", writableImage);
         test3.drawSprite(100, 400, test3.getData(), writableImage);
-        test2.bigEdit(test.getData(),writableImage);
+        
+        var tasteGrass = new Sprite("Grass", writableImage);
+        tasteGrass.drawSprite(0, 0, tasteGrass.getData(), writableImage);
+        tasteGrass.bigEdit(tasteGrass.getData(),writableImage);
         //System.out.println(test3.getData());
         /////////////////////////////////////////////////////
         var imageView = new ImageView(writableImage);
